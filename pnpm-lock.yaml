@@ -2,13 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   autoprefixer: ^10.4.8
-  gsap: ^3.11.3
   postcss: ^8.4.16
+  rellax: ^1.12.1
   tailwindcss: ^3.1.8
   vite: ^3.0.7
 
 dependencies:
-  gsap: 3.11.3
+  rellax: 1.12.1
 
 devDependencies:
   autoprefixer: 10.4.8_postcss@8.4.16
@@ -446,10 +446,6 @@ packages:
       is-glob: 4.0.3
     dev: true
 
-  /gsap/3.11.3:
-    resolution: {integrity: sha512-xc/iIJy+LWiMbRa4IdMtdnnKa/7PXEK6NNzV71gdOYUVeTZN7UWnLU0fB7Hi1iwiz4ZZoYkBZPPYGg+2+zzFHA==}
-    dev: false
-
   /has/1.0.3:
     resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==}
     engines: {node: '>= 0.4.0'}
@@ -643,6 +639,10 @@ packages:
     dependencies:
       picomatch: 2.3.1
     dev: true
+
+  /rellax/1.12.1:
+    resolution: {integrity: sha512-XBIi0CDpW5FLTujYjYBn1CIbK2CJL6TsAg/w409KghP2LucjjzBjsujXDAjyBLWgsfupfUcL5WzdnIPcGfK7XA==}
+    dev: false
 
   /resolve/1.22.1:
     resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==}
